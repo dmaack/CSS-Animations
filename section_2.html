@@ -6,13 +6,16 @@
     <title>Section 2: 2D Transforms</title>
 </head>
 <style>
+    body {
+        perspective: 500px;
+    }
     img {
         width: 300px;
         display: block;
         margin: auto;
         margin-top: 200px;
         transition: transform 2s;
-        transform-origin: top;
+        /* transform-origin: top; */
     }
 
     img:hover {
@@ -26,7 +29,11 @@
 
         /* transform: skew(); */
 
-        transform: rotate(45deg)
+        /* transform: rotate(45deg) */
+
+        /* transform: translateZ(300px);
+        transform: rotateX(60deg); */
+        transform: rotateY(180deg);
         
     }
 </style>
