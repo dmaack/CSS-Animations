@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Section 2: 2D Transforms</title>
+</head>
+<style>
+    img {
+        width: 300px;
+        display: block;
+        margin: auto;
+        margin-top: 200px;
+        transition: transform 2s;
+        transform-origin: top;
+    }
+
+    img:hover {
+        /* transform: translate(-500px, 200px); */
+
+        /* transform: scale(2); */
+
+        /* transform: rotate(20deg);
+        transform: rotate(1turn);
+        transform: rotate(200grad); */
+
+        /* transform: skew(); */
+
+        transform: rotate(45deg)
+        
+    }
+</style>
+<body>
+    <img src="flower.jpg" alt="flower">
+</body>
+</html>
+
+<!-- Notes:
+
+Transform has 4 possible properties:
+    scale, translate, rotate, skew -->
+
+<!-- 
+    transform: translate(the value) 
+
+    transform: translate(10px, 10px) - - > will move the image 10px to the right and 10px to the bottom
+-->
